@@ -34,3 +34,72 @@ body {
         color: #fe6a0f;
     }
 }
+
+/* Header */
+header {
+    & .container {
+        display: flex;
+        align-items: center;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        gap: 50px;
+    }
+
+    & nav {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    & nav .leftside {
+        display: flex;
+        flex: 1;
+    }
+
+    & nav li {
+        margin: 0 30px;
+    }
+
+    & nav li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    & nav li a:hover {
+        color: #999;
+    }
+
+    & nav .button {
+        display: block;
+        border: 1px solid #fff;
+        padding: 15px 40px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    & nav .button:hover {
+        color: #999;
+        border-color: #999;
+    }
+
+    & .menu {
+        display: none;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    & .menu-icon {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    & .menu-icon div {
+        background-color: #fff;
+        height: 6px;
+    }
+}

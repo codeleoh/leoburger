@@ -1,0 +1,11 @@
+@media (max-width: 820px) {
+    header {
+        & nav {
+            display: none;
+        }
+
+        & .menu {
+            display: flex;
+        }
+    }
+}
