@@ -103,3 +103,55 @@ header {
         height: 6px;
     }
 }
+
+/* Hero */
+.hero {
+    & .container {
+        display: flex;
+    }
+
+    & .leftside,
+    & .rightside {
+        flex: 1;
+    }
+
+    & .leftside {
+        padding-bottom: 150px;
+    }
+
+    & .rightside {
+        text-align: center;
+    }
+
+    & .rightside img {
+        width: auto;
+        height: 600px;
+    }
+
+    & h1 {
+        font-family: 'Calistoga';
+        font-size: 71px;
+        line-height: 74px;
+        margin-top: 50px;
+    }
+
+    & p {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 40px 0;
+    }
+
+    & .button {
+        display: inline-block;
+        background-color: #fe6a0f;
+        font-weight: 500;
+        color: #fff;
+        padding: 15px 80px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    & .button:hover {
+        opacity: 0.8;
+    }
+}

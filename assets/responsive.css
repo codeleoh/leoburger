@@ -8,4 +8,28 @@
             display: flex;
         }
     }
+
+    .hero {
+        & .container {
+            flex-direction: column;
+        }
+
+        & .leftside {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        & .rightside {
+            padding-bottom: 30px;
+        }
+
+        & .rightside img {
+            height: 300px;
+        }
+
+        & h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
 }
