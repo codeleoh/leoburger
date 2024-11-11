@@ -202,3 +202,24 @@ header {
         border-right: 20px solid transparent;
     }
 }
+
+/* Products */
+main {
+    & .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 40px 0;
+    }
+
+    & .product-item {
+        display: block;
+        border-radius: 8px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    & .product-item:hover {
+        opacity: 0.8;
+    }
+}
