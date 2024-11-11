@@ -32,4 +32,17 @@
             line-height: 50px;
         }
     }
+
+    .search {
+        padding-bottom: 30px;
+
+        & .title {
+            text-align: center;
+        }
+
+        & .side {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
 }
